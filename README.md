@@ -1,4 +1,4 @@
-# COLORS
+# COLORS-HSLA
 
 ## I ported clrs.cc by @mrmrs\_ to HSLA.
 
@@ -6,7 +6,7 @@ View the project page at [http://sndsgn.github.io/colors-hsla/](http://sndsgn.gi
 
 ## clrs.cc by mrmrs ported to HSLA. More intuitive color choices than the current web defaults.
 
-I don't think anyone uses neon colors on their website while they are awake. A great curation of colors by mrmrs ported to HSLA.
+I don't think anyone uses neon colors on their website while they are awake. Those are the current web defaults when you type a text name for a color in HTML like "green". A great curation of colors by mrmrs ported to HSLA.
 
 colors-hsla.css provides utilities to apply backgrounds, text-color, border colors for both html and svg elements with HSLA value. 
 
