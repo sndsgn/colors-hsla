@@ -1,0 +1,281 @@
+/***
+
+   colors.css v2.0.0
+   http://clrs.cc
+   @mrmrs
+   MIT License
+
+***/
+/*
+
+   SKINS
+   - Backgrounds
+   - Colors
+   - Border colors
+   - SVG fills
+   - SVG Strokes
+
+*/
+/* Backgrounds */
+.bg-navy {
+  background-color: hsla(210, 100%, 12%, 1.0); }
+
+.bg-blue {
+  background-color: hsla(208, 100%, 43%, 1.0); }
+
+.bg-aqua {
+  background-color: hsla(197, 100%, 75%, 1.0); }
+
+.bg-teal {
+  background-color: hsla(180, 59%, 51%, 1.0); }
+
+.bg-olive {
+  background-color: hsla(153, 43%, 42%, 1.0); }
+
+.bg-green {
+  background-color: hsla(127, 63%, 49%, 1.0); }
+
+.bg-lime {
+  background-color: hsla(146, 100%, 50%, 1.0); }
+
+.bg-yellow {
+  background-color: hsla(52, 100%, 50%, 1.0); }
+
+.bg-orange {
+  background-color: hsla(28, 100%, 55%, 1.0); }
+
+.bg-red {
+  background-color: hsla(3, 100%, 61%, 1.0); }
+
+.bg-fuchsia {
+  background-color: hsla(314, 88%, 51%, 1.0); }
+
+.bg-purple {
+  background-color: hsla(292, 88%, 42%, 1.0); }
+
+.bg-maroon {
+  background-color: hsla(331, 74%, 30%, 1.0); }
+
+.bg-white {
+  background-color: hsla(0, 100%, 100%, 1.0); }
+
+.bg-gray {
+  background-color: hsla(0, 0%, 67%, 1.0); }
+
+.bg-silver {
+  background-color: hsla(0, 0%, 87%, 1.0); }
+
+.bg-black {
+  background-color: hsla(0, 0%, 87%, 1.0); }
+
+/* Colors */
+.navy {
+  color: hsla(210, 100%, 12%, 1.0); }
+
+.blue {
+  color: hsla(208, 100%, 43%, 1.0); }
+
+.aqua {
+  color: hsla(197, 100%, 75%, 1.0); }
+
+.teal {
+  color: hsla(180, 59%, 51%, 1.0); }
+
+.olive {
+  color: hsla(153, 43%, 42%, 1.0); }
+
+.green {
+  color: hsla(127, 63%, 49%, 1.0); }
+
+.lime {
+  color: hsla(146, 100%, 50%, 1.0); }
+
+.yellow {
+  color: hsla(52, 100%, 50%, 1.0); }
+
+.orange {
+  color: hsla(28, 100%, 55%, 1.0); }
+
+.red {
+  color: hsla(3, 100%, 61%, 1.0); }
+
+.fuchsia {
+  color: hsla(314, 88%, 51%, 1.0); }
+
+.purple {
+  color: hsla(292, 88%, 42%, 1.0); }
+
+.maroon {
+  color: hsla(331, 74%, 30%, 1.0); }
+
+.white {
+  color: hsla(0, 100%, 100%, 1.0); }
+
+.silver {
+  color: hsla(0, 0%, 87%, 1.0); }
+
+.gray {
+  color: hsla(0, 0%, 67%, 1.0); }
+
+.black {
+  color: hsla(0, 100%, 100%, 1.0); }
+
+/* Border colors 
+
+   Use with another border utility that sets border-width and style 
+   i.e .border { border-width: 1px; border-style: solid; }     
+*/ 
+.border--navy {
+  border-color: hsla(210, 100%, 12%, 1.0); }
+
+.border--blue {
+  border-color: hsla(208, 100%, 43%, 1.0); }
+
+.border--aqua {
+  border-color: hsla(197, 100%, 75%, 1.0); }
+
+.border--teal {
+  border-color: hsla(180, 59%, 51%, 1.0); }
+
+.border--olive {
+  border-color: hsla(153, 43%, 42%, 1.0); }
+
+.border--green {
+  border-color: hsla(127, 63%, 49%, 1.0); }
+
+.border--lime {
+  border-color: hsla(146, 100%, 50%, 1.0); }
+
+.border--yellow {
+  border-color: hsla(52, 100%, 50%, 1.0); }
+
+.border--orange {
+  border-color: hsla(28, 100%, 55%, 1.0); }
+
+.border--red {
+  border-color: hsla(3, 100%, 61%, 1.0); }
+
+.border--fuchsia {
+  border-color: hsla(331, 74%, 30%, 1.0); }
+
+.border--purple {
+  border-color: hsla(292, 88%, 42%, 1.0); }
+
+.border--maroon {
+  border-color: hsla(331, 74%, 30%, 1.0); }
+
+.border--white {
+  border-color: hsla(0, 100%, 100%, 1.0); }
+
+.border--gray {
+  border-color: hsla(0, 0%, 67%, 1.0); }
+
+.border--silver {
+  border-color: hsla(0, 0%, 87%, 1.0); }
+
+.border--black {
+  border-color: hsla(0, 0%, 87%, 1.0); }
+
+/* Fills for SVG */
+.fill-navy {
+  fill: hsla(210, 100%, 12%, 1.0); }
+
+.fill-blue {
+  fill: hsla(208, 100%, 43%, 1.0); }
+
+.fill-aqua {
+  fill: hsla(197, 100%, 75%, 1.0); }
+
+.fill-teal {
+  fill: hsla(180, 59%, 51%, 1.0); }
+
+.fill-olive {
+  fill: hsla(153, 43%, 42%, 1.0); }
+
+.fill-green {
+  fill: hsla(127, 63%, 49%, 1.0); }
+
+.fill-lime {
+  fill: hsla(146, 100%, 50%, 1.0); }
+
+.fill-yellow {
+  fill: hsla(52, 100%, 50%, 1.0); }
+
+.fill-orange {
+  fill: hsla(28, 100%, 55%, 1.0); }
+
+.fill-red {
+  fill: hsla(3, 100%, 61%, 1.0); }
+
+.fill-fuchsia {
+  fill: hsla(314, 88%, 51%, 1.0); }
+
+.fill-purple {
+  fill: hsla(292, 88%, 42%, 1.0); }
+
+.fill-maroon {
+  fill: hsla(331, 74%, 30%, 1.0); }
+
+.fill-white {
+  fill: hsla(0, 100%, 100%, 1.0); }
+
+.fill-gray {
+  fill: hsla(0, 0%, 67%, 1.0); }
+
+.fill-silver {
+  fill: hsla(0, 0%, 87%, 1.0); }
+
+.fill-black {
+  fill: hsla(0, 0%, 7%, 1.0); }
+
+/* Strokes for SVG */
+.stroke-navy {
+  stroke: hsla(210, 100%, 12%, 1.0) ; }
+
+.stroke-blue {
+  stroke: hsla(208, 100%, 43%, 1.0); }
+
+.stroke-aqua {
+  stroke: hsla(197, 100%, 75%, 1.0) ; }
+
+.stroke-teal {
+  stroke: hsla(180, 59%, 51%, 1.0); }
+
+.stroke-olive {
+  stroke: hsla(153, 43%, 42%, 1.0); }
+
+.stroke-green {
+  stroke: hsla(127, 63%, 49%, 1.0); }
+
+.stroke-lime {
+  stroke: hsla(146, 100%, 50%, 1.0); }
+
+.stroke-yellow {
+  stroke: hsla(52, 100%, 50%, 1.0); }
+
+.stroke-orange {
+  stroke: hsla(28, 100%, 55%, 1.0); }
+
+.stroke-red {
+  stroke: hsla(3, 100%, 61%, 1.0); }
+
+.stroke-fuchsia {
+  stroke: hsla(331, 74%, 30%, 1.0); }
+
+.stroke-purple {
+  stroke: hsla(292, 88%, 42%, 1.0); }
+
+.stroke-maroon {
+  stroke: hsla(331, 74%, 30%, 1.0); }
+
+.stroke-white {
+  stroke: hsla(0, 100%, 100%, 1.0); }
+
+.stroke-gray {
+  stroke: hsla(0, 0%, 67%, 1.0); }
+
+.stroke-silver {
+  stroke: hsla(0, 0%, 87%, 1.0); }
+
+.stroke-black {
+  stroke: hsla(0, 0%, 87%, 1.0); }
