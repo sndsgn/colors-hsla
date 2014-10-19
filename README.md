@@ -30,117 +30,25 @@ Download a zip from this page
 
 Clone / fork the repo through git
 ```bash
-git clone git@github.com:mrmrs/colors.git
-```
-
-Install [through npm](https://www.npmjs.org/package/colors.css)
-```bash
-npm install --save-dev colors.css
-```
-
-Install the [ruby gem](http://rubygems.org/gems/clrs)
-```
-gem install clrs
+git clone git@github.com:sndsgn/colors-hsla.git
 ```
 
 ### Using the css
 Simply copy colors.css to your css directory and include the file like so in the head of your html document
 
 ```html
-<link rel="stylesheet" href="css/colors.css">
-```
-
-### Using sass, stylus, less, and myth
-
-If you'd like to customize colors.css to your liking, you can edit the source in a variety of flavors.
-Colors uses [gulp](http://gulpjs.com "GulpJs - A sweet js taskrunner") as a taskrunner.
-There are individual gulp tasks for each preprocessor*
-Each gulp task also comes with automatic vendor prefix support, csslint output, and livereload updates
-built in.
-It's pretty sweet.
-
-First run
-
-```bash
-npm install -g gulp
-```
-
-Then
-
-```bash
-npm install
-```
-
-Once that is complete you can use any preprocessor like so
-
-Recompile everything imported in ./sass/colors.scss to css/colors.css
-everytime a file in the ./sass directory is updated
-```bash
-gulp sass
-```
-
-Recompile everything imported in ./stylus/colors.styl to ./css/colors.css
-everytime a file in the ./stylus directory is updated
-```bash
-gulp stylus
-```
-
-Recompile myth/colors.css to css/colors.css everytime myth/colors.css is updated
-```bash
-gulp myth
-```
-
-If you would like to minify ./css/colors.css to .css/colors.min.css you can just run
-```bash
-gulp minify
-```
-
-* Except for less which doesn't seem well supported with gulp yet. Hopefully we can
-better support less soon.
-
-## Directory structure
-```
-
-    colors/
-          ├── README.md
-          ├── bower.json
-          ├── coffee
-          │   └── colors.coffee
-          ├── css
-          │   ├── colors.css
-          │   └── colors.min.css
-          ├── gulpfile.js
-          ├── index.html
-          ├── js
-          │   └── colors.js
-          ├── less
-          │   ├── _skins.less
-          │   ├── _variables.less
-          │   └── colors.less
-          ├── myth
-          │   └── colors.css
-          ├── package.json
-          ├── sass
-          │   ├── _skins.scss
-          │   ├── _variables.scss
-          │   └── colors.scss
-          ├── site.css
-          └── stylus
-              ├── colors.styl
-              ├── skins.styl
-              └── variables.styl
-
+<link rel="stylesheet" href="css/colors-hsla.css">
 ```
 
 # Author
-[MRMRS](http://mrmrs.cc "Adam Morse - Designer + Developer in SF")
-
+[SNDSGN](http://www.sndsgn.com " Robert Forloine - HTML, CSS, JavaScript designed to render smoothly and quickly")
 
 # License
 
 The MIT License (MIT)
 
-Copyright (c) 2014 @mrmrs
+Copyright (c) 2014 @sndsgns
+Based off of clrs.cc by @mrmrs_ 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
