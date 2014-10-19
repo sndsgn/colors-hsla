@@ -1,8 +1,8 @@
 # COLORS
 
-## Better colors for the web.
+## I ported clrs.cc by @mrmrs\_ to HSLA.
 
-View the project page at [http://clrs.cc](http://clrs.cc "Colors: Better colors for the web.")
+View the project page at [http://sndsgn.github.io/colors-hsla/](http://sndsgn.github.io/colors-hsla/ "I ported clrs.cc by @mrmrs_")
 
 ## What is this?
 
@@ -11,7 +11,7 @@ This is a set of sass/less/stylus/css variables and css classes that can help fi
 
 (Uncompressed is just 888B)
 
-colors.css provides utilities to apply backgrounds, text-color, border colors for both html and svg elements. 
+colors-hsla.css provides utilities to apply backgrounds, text-color, border colors for both html and svg elements with HSLA value. 
 
 # Example
 ```
@@ -22,7 +22,7 @@ colors.css provides utilities to apply backgrounds, text-color, border colors fo
 .stroke-blue {  stroke: $blue; }
 ```
 
-## Install colors.css
+## Install colors-hsla.css
 
 You can get the code a few different ways
 
@@ -34,7 +34,7 @@ git clone git@github.com:sndsgn/colors-hsla.git
 ```
 
 ### Using the css
-Simply copy colors.css to your css directory and include the file like so in the head of your html document
+Simply copy colors-hsla.css to your css directory and include the file like so in the head of your html document
 
 ```html
 <link rel="stylesheet" href="css/colors-hsla.css">
