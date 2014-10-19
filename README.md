@@ -4,12 +4,9 @@
 
 View the project page at [http://sndsgn.github.io/colors-hsla/](http://sndsgn.github.io/colors-hsla/ "I ported clrs.cc by @mrmrs_")
 
-## What is this?
+## clrs.cc by mrmrs ported to HSLA. More intuitive color choices than the current web defaults.
 
-A simple color palette for the web. Let's be honest, out of the box, the color strings that css provides aren't... the tops.
-This is a set of sass/less/stylus/css variables and css classes that can help fix that with just 647B of minified and gzipped css.
-
-(Uncompressed is just 888B)
+I don't think anyone uses neon colors on their website while they are awake. A great curation of colors by mrmrs ported to HSLA.
 
 colors-hsla.css provides utilities to apply backgrounds, text-color, border colors for both html and svg elements with HSLA value. 
 
