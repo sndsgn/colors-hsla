@@ -4,6 +4,8 @@
 
 View the project page at [http://sndsgn.github.io/colors-hsla/](http://sndsgn.github.io/colors-hsla/ "I ported clrs.cc by @mrmrs_")
 
+View the original page by mrmrs at [https://github.com/mrmrs/colors](https://github.com/mrmrs/colors)
+
 ## clrs.cc by mrmrs ported to HSLA. More intuitive color choices than the current web defaults.
 
 I don't think anyone uses neon colors on their website while they are awake. Those are the current web defaults when you type a text name for a color in HTML like "green". A great curation of colors by mrmrs ported to HSLA.
