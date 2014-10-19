@@ -5,3 +5,14 @@ body { margin: 0; padding: 0; font-family: avenir, 'avenir next', helvetica, 'co
 .pvl { padding: 1rem; }
 .tc { text-align: center; }
 .title { text-transform: uppercase; letter-spacing: .14em; }
+a:link {
+  text-decoration: none;
+  -webkit-transition: color 1.2s ease-in-out;
+  color: #000000;} 
+
+a:visited {
+  color: inherit; }
+
+a:hover {
+  color: HSLA(208, 100%, 43%, 1.0);
+  -webkit-transition: color .4s ease-in-out; }
